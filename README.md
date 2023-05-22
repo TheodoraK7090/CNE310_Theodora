@@ -13,7 +13,7 @@ Python 3: https://www.python.org/downloads/
 ```
 
 ## Running
-
+When installed this will give the amount of time that is needed to achieve savings goal.
 
 ```
 months = 0
@@ -36,4 +36,4 @@ while True:
 
 
 ##Thanks
-Provide thank yous and attributions here.  If someone helped you, you looked at anothers repostiory, or another article, provide it here.
+Thanks to Zak and GitHub for instructions on how to do this.
