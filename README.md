@@ -24,22 +24,18 @@ print(howManyMonths(15000, 0.03, 100, 20000))
 
 
 
-# Project Title
-
-One Paragraph of project description goes here.
+# A function for the time it will take your savings to reach a targeted amount
 
 ## Getting Started
 
-These instructions will [do something] on your local machine for [development/experimentation/demo].
+These instructions will set up a function on your local machine for figuring how many month it would take to save a target savings amount.
 
 ### Prerequisites
 
-[Project] requires [software and version] to run, with [additional packages, libaries, or mods]. The commands below will [upgrade OS and install the prerequisites, or do something else]
+This function requires Python 3 to run, with no additional software.  The commands below will set a Python program to do the math.
 
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install package1 package2
+Python 3: https://www.python.org/downloads/
+
 ```
 
 ## Running
