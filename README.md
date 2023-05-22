@@ -13,18 +13,27 @@ Python 3: https://www.python.org/downloads/
 ```
 
 ## Running
-Once installed you can run the program with the following command
+
 
 ```
-python cna_demo.py
+months = 0
+balance = start
+
+while True:
+    months+=1
+
+    balance = balance * (1 + rate) - spending
+
+    if balance >= target:
+        return months
+
+    if balance < 0:
+        return -1
+
+    if months == 100:
+        return -1
 ```
 
-Add any additional ways to run the program below
-
-```
-python cna_demo.py test.txt
-
-```
 
 ##Thanks
 Provide thank yous and attributions here.  If someone helped you, you looked at anothers repostiory, or another article, provide it here.
