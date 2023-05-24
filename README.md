@@ -1,39 +1,20 @@
-# A function for the time it will take your savings to reach a targeted amount
-
-## Getting Started
-
-These instructions will set up a function on your local machine for figuring how many month it would take to save a target savings amount.
-
-### Prerequisites
-
-This function requires Python 3 to run, with no additional software.  The commands below will set a Python program to do the math.
-
-Python 3: https://www.python.org/downloads/
-
-```
-
-## Running
-When installed this will give the amount of time that is needed to achieve savings goal.
-
-```
-months = 0
-balance = start
-
-while True:
-    months+=1
-
-    balance = balance * (1 + rate) - spending
-
-    if balance >= target:
-        return months
-
-    if balance < 0:
-        return -1
-
-    if months == 100:
-        return -1
-```
-
-
-##Thanks
-Thanks to Zak and GitHub for instructions on how to do this.
+number_grade = int(input("Enter how many grades are you entering here:"))
+l=[]
+for i in range(number_grade):
+    g1=int(input("Enter grade #"+str(i+1)+": "))
+    l.append(g1)
+student=(sum(l)/(len(l)*100))*100
+letter_grade=""
+if student > 93:
+    letter_grade="A"
+elif student > 79 and student <= 92.99:
+    letter_grade="B"
+elif student > 73 and student  <= 78.99:
+    letter_grade="C"
+elif student > 61.99 and student <= 72.99:
+    letter_grade="D"
+elif student < 61.99:
+    letter_grade = "F"
+    print("You Got a "+letter_grade+" ")
+if letter_grade != "A":
+    print("not an A")
